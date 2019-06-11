@@ -4,7 +4,7 @@ import './NavBar.css';
 
 class NavBar extends Component {
   static defaultProps = {
-    NavItems: ['Mac', 'Ipod', 'Iphone', 'Watch', 'TV', 'Music', 'Support']
+    NavItems: ['Mac', 'Ipod', 'Iphone', 'Watch', 'TV', 'Music', 'Support, Contact']
   };
   render() {
     return (
