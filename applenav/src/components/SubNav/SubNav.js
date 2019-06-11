@@ -7,10 +7,8 @@ class SubNav extends Component {
   };
   render() {
     return (
-      <div className='SubNav'>
-        {this.props.ItemList.map(items => (
-          <h4>{items}</h4>
-        ))}
+      <div>
+        <h4>{this.props.subNavItem}</h4>
       </div>
     );
   }

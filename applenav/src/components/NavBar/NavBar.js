@@ -3,15 +3,10 @@ import React, {Component} from 'react';
 import './NavBar.css';
 
 class NavBar extends Component {
-  static defaultProps = {
-    NavItems: ['Mac', 'Ipod', 'Iphone', 'Watch', 'TV', 'Music', 'Support, Contact']
-  };
   render() {
     return (
-      <div className='NavBar'>
-        {this.props.NavItems.map(items => (
-          <h3>{items}</h3>
-        ))}
+      <div>
+        <h2>{this.props.navBarItem}</h2>
       </div>
     );
   }

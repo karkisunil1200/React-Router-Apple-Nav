@@ -1,6 +1,5 @@
 import React from 'react';
-import NavBar from './components/NavBar/NavBar';
-import SubNav from './components/SubNav/SubNav';
+import NavHeader from './components/NavHeader/NavHeader';
 
 import './App.css';
 
@@ -8,8 +7,7 @@ function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <NavBar />
-        <SubNav />
+        <NavHeader />
       </header>
     </div>
   );
